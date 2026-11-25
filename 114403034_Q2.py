@@ -25,6 +25,13 @@ print("第一筆交易：", sales[0])
 
 # ===== 以下由學生自行撰寫 =====
 # Part A：總營收、總成本、總利潤、平均每筆營收
+total_revenue = 0
+total_cost = 0GitDoc: Enable
+for sale in sales:
+# 取得 sale["price"]、sale["cost"] 與 sale["quantity"]
+# 計算本筆營收、成本，累加到 total_revenue 與 total_cost
+# 由總營收與總成本計算總利潤
+# 計算每筆交易平均營收並輸出
 
 # Part B：四種商品類別的營收與利潤
 
